@@ -1,0 +1,12 @@
+model,mmlu_queries,mean_response_cost_usd,median_response_cost_usd,p90_response_cost_usd,source_field
+WizardLM/WizardLM-13B-V1.2,14042,4.2501509756444946e-05,3.27e-05,8.07e-05,WizardLM/WizardLM-13B-V1.2|total_cost
+claude-instant-v1,14042,0.00011414875373878366,8.800000000000001e-05,0.00021600000000000002,claude-instant-v1|total_cost
+claude-v1,14042,0.0011414584816977639,0.00088,0.00216,claude-v1|total_cost
+claude-v2,14042,0.001141564449508617,0.00088,0.00216,claude-v2|total_cost
+gpt-3.5-turbo-1106,14042,0.0001418624839766415,0.00010899999999999999,0.000269,gpt-3.5-turbo-1106|total_cost
+gpt-4-1106-preview,14042,0.0014334610454351231,0.0011,0.0027,gpt-4-1106-preview|total_cost
+meta/code-llama-instruct-34b-chat,14042,0.00010994221222048141,8.4584e-05,0.000208744,meta/code-llama-instruct-34b-chat|total_cost
+meta/llama-2-70b-chat,14042,0.00012751125907990314,9.81e-05,0.0002421,meta/llama-2-70b-chat|total_cost
+mistralai/mistral-7b-chat,14042,2.833639082751745e-05,2.18e-05,5.380000000000001e-05,mistralai/mistral-7b-chat|total_cost
+mistralai/mixtral-8x7b-chat,14042,8.499767839339124e-05,6.54e-05,0.0001614,mistralai/mixtral-8x7b-chat|total_cost
+zero-one-ai/Yi-34B-Chat,14042,0.0001129124056402222,8.640000000000001e-05,0.0002144,zero-one-ai/Yi-34B-Chat|total_cost

@@ -1,0 +1,44 @@
+{
+  "RE_ifeval": {
+    "E1-empirical_tally": 1,
+    "E1-gaussian_copula": 2,
+    "E2-error_correlation": 1,
+    "E1-marginal": 1
+  },
+  "RE_bbh": {
+    "E1-empirical_tally": 5
+  },
+  "RE_gpqa": {
+    "E1-error_correlation": 2,
+    "E1-empirical_tally": 3
+  },
+  "RE_math": {
+    "E1-gaussian_copula": 1,
+    "E1-marginal": 1,
+    "E2-error_correlation": 1,
+    "E2-pairwise_count": 2
+  },
+  "RE_musr": {
+    "E2-gaussian_copula": 2,
+    "E1-empirical_tally": 1,
+    "E1-error_correlation": 1,
+    "E2-pairwise_count": 1
+  },
+  "RB_mmlu": {
+    "E1-empirical_tally": 5
+  },
+  "RB_hellaswag": {
+    "E1-empirical_tally": 5
+  },
+  "RB_winogrande": {
+    "E2-error_correlation": 1,
+    "E1-error_correlation": 2,
+    "E2-gaussian_copula": 1,
+    "E1-empirical_tally": 1
+  },
+  "RB_arc-challenge": {
+    "E1-empirical_tally": 1,
+    "E1-error_correlation": 3,
+    "E2-pairwise_count": 1
+  }
+}

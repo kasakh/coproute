@@ -1,0 +1,3090 @@
+{
+  "figure_kind": "calls_vs_risk",
+  "panels": [
+    {
+      "axis_x_max": 74.65593495934961,
+      "axis_x_min": 0.0,
+      "baseline_calls": [
+        69.60975609756098,
+        71.78455284552847,
+        69.60975609756098,
+        71.78455284552847,
+        62.24878048780488,
+        61.94634146341462,
+        45.547425474254744,
+        44.924119241192415,
+        25.195763799743258,
+        26.78754813863928,
+        14.823170731707316,
+        15.841463414634148,
+        5.6554878048780495,
+        7.989024390243903,
+        4.309146341463416,
+        6.374390243902439,
+        3.6134146341463413,
+        5.484756097560975,
+        3.078048780487805,
+        5.104878048780488,
+        2.616463414634146,
+        4.5060975609756095,
+        2.3634146341463413,
+        4.277439024390243,
+        2.0640243902439024,
+        3.9390243902439024,
+        1.8847560975609756,
+        3.6713414634146337,
+        1.4896341463414635,
+        3.1939024390243906
+      ],
+      "data_x_max": 71.78455284552847,
+      "data_x_min": 1.0719512195121952,
+      "methods": [
+        "correlation_heuristic",
+        "exact_independence",
+        "fixed_tally_factorized",
+        "local_empirical",
+        "pairwise_heuristic",
+        "racer_g",
+        "racer_p",
+        "regularized_correlation"
+      ],
+      "points": [
+        {
+          "mean_calls": 69.60975609756098,
+          "method": "racer_g",
+          "reported_risk_mean": 0.02439024390243903,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 71.78455284552847,
+          "method": "racer_p",
+          "reported_risk_mean": 0.02439024390243903,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 66.28861788617887,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.028455284552845527,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 45.333333333333336,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.06097560975609756,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 67.54471544715447,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.028455284552845527,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 65.63821138211382,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.028455284552845527,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 61.60162601626016,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.02439024390243903,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 67.02439024390243,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.028455284552845527,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 69.60975609756098,
+          "method": "racer_g",
+          "reported_risk_mean": 0.02439024390243903,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 71.78455284552847,
+          "method": "racer_p",
+          "reported_risk_mean": 0.02439024390243903,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 66.28861788617887,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.028455284552845527,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 45.333333333333336,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.06097560975609756,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 67.54471544715447,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.028455284552845527,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 65.63821138211382,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.028455284552845527,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 61.60162601626016,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.02439024390243903,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 67.02439024390243,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.028455284552845527,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 62.24878048780488,
+          "method": "racer_g",
+          "reported_risk_mean": 0.027642276422764227,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 61.94634146341462,
+          "method": "racer_p",
+          "reported_risk_mean": 0.030081300813008128,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 55.362601626016264,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.02276422764227642,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 64.430081300813,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.02845528455284553,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 48.752845528455275,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.026016260162601626,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 60.68292682926829,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.02357723577235772,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 56.228455284552844,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.025203252032520326,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 56.53089430894308,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.02276422764227642,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 45.547425474254744,
+          "method": "racer_g",
+          "reported_risk_mean": 0.037262872628726296,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 44.924119241192415,
+          "method": "racer_p",
+          "reported_risk_mean": 0.035907859078590794,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 28.632791327913278,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.038617886178861784,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 44.17479674796748,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.03929539295392954,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 26.27710027100271,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.03861788617886179,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 33.414634146341456,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.03523035230352304,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 33.78252032520325,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.03658536585365854,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 28.974254742547423,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.035907859078590794,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 25.195763799743258,
+          "method": "racer_g",
+          "reported_risk_mean": 0.050064184852374835,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 26.78754813863928,
+          "method": "racer_p",
+          "reported_risk_mean": 0.051347881899871634,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 17.873555840821563,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.04878048780487805,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 34.767008985879336,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.050064184852374835,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 15.7798459563543,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.04749679075738126,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 18.445442875481387,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.04428754813863928,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 19.146983311938385,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.04942233632862644,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 18.07637997432606,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.050706033376123234,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 14.823170731707316,
+          "method": "racer_g",
+          "reported_risk_mean": 0.05853658536585367,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 15.841463414634148,
+          "method": "racer_p",
+          "reported_risk_mean": 0.05792682926829269,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 12.042073170731708,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.05670731707317074,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 29.21219512195122,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.05731707317073172,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 11.085975609756098,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.05548780487804879,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 9.80609756097561,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.05792682926829269,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 11.545731707317074,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.062195121951219526,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 11.645731707317072,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.05975609756097562,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 5.6554878048780495,
+          "method": "racer_g",
+          "reported_risk_mean": 0.08109756097560977,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 7.989024390243903,
+          "method": "racer_p",
+          "reported_risk_mean": 0.07195121951219513,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.775609756097561,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.0798780487804878,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 15.684756097560978,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.07865853658536587,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.429268292682927,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.07195121951219514,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.359146341463415,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.08292682926829269,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 5.401219512195122,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.08170731707317073,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.8,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.07926829268292683,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.309146341463416,
+          "method": "racer_g",
+          "reported_risk_mean": 0.08902439024390245,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 6.374390243902439,
+          "method": "racer_p",
+          "reported_risk_mean": 0.07987804878048782,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 4.059756097560975,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.08475609756097562,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 11.737804878048781,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.08597560975609757,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.3926829268292678,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.08353658536585366,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.25609756097561,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.09146341463414635,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.725,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.09878048780487807,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.8945121951219512,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.08963414634146342,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.6134146341463413,
+          "method": "racer_g",
+          "reported_risk_mean": 0.10000000000000002,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 5.484756097560975,
+          "method": "racer_p",
+          "reported_risk_mean": 0.08658536585365853,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 3.176829268292683,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.09695121951219512,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 8.828658536585367,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.0926829268292683,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.798170731707317,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.0926829268292683,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.7646341463414634,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.09756097560975611,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 3.426829268292683,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.10243902439024392,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 3.365243902439025,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.0975609756097561,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 3.078048780487805,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1103658536585366,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 5.104878048780488,
+          "method": "racer_p",
+          "reported_risk_mean": 0.09329268292682927,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.7317073170731705,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.10487804878048783,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 7.073780487804879,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.10243902439024392,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.3902439024390243,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.10000000000000002,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.408536585365854,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.1103658536585366,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.923780487804878,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.11158536585365855,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.8664634146341466,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.100609756097561,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.616463414634146,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1280487804878049,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 4.5060975609756095,
+          "method": "racer_p",
+          "reported_risk_mean": 0.1128048780487805,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.1237804878048783,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.12256097560975612,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 4.464024390243903,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.11951219512195124,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.747560975609756,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.11829268292682929,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.7731707317073169,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.125609756097561,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.2628048780487804,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.12865853658536588,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.2030487804878054,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.12439024390243905,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.3634146341463413,
+          "method": "racer_g",
+          "reported_risk_mean": 0.13963414634146343,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 4.277439024390243,
+          "method": "racer_p",
+          "reported_risk_mean": 0.12012195121951222,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.9847560975609757,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.13292682926829272,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 3.540853658536585,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.1280487804878049,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.5603658536585365,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.12500000000000003,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.6682926829268294,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.13414634146341467,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.9932926829268294,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.13536585365853662,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 2.0439024390243903,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.13292682926829272,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 2.0640243902439024,
+          "method": "racer_g",
+          "reported_risk_mean": 0.14695121951219514,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 3.9390243902439024,
+          "method": "racer_p",
+          "reported_risk_mean": 0.1298780487804878,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.698170731707317,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.14146341463414636,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 2.1036585365853657,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.13719512195121955,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.427439024390244,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.13292682926829272,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.5396341463414633,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.1432926829268293,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.823170731707317,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.1432926829268293,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.7835365853658538,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.14207317073170733,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.8847560975609756,
+          "method": "racer_g",
+          "reported_risk_mean": 0.15731707317073174,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 3.6713414634146337,
+          "method": "racer_p",
+          "reported_risk_mean": 0.1402439024390244,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.5713414634146343,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.14939024390243905,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.6896341463414632,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.14817073170731712,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.3243902439024393,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.14085365853658538,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.4646341463414634,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.15060975609756103,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.7030487804878045,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.15121951219512197,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.6506097560975612,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.15243902439024393,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.4896341463414635,
+          "method": "racer_g",
+          "reported_risk_mean": 0.18414634146341466,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 3.1939024390243906,
+          "method": "racer_p",
+          "reported_risk_mean": 0.17195121951219514,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.270121951219512,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.17378048780487806,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.3243902439024389,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.16829268292682928,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.0719512195121952,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.16768292682926836,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.221341463414634,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.17621951219512197,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.3475609756097562,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.1725609756097561,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.2615853658536582,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.175609756097561,
+          "target_alpha": 0.18
+        }
+      ],
+      "pool_size": 100
+    },
+    {
+      "axis_x_max": 116.01707317073172,
+      "axis_x_min": 0.0,
+      "baseline_calls": [
+        110.66615853658536,
+        111.5548780487805,
+        110.66615853658536,
+        111.5548780487805,
+        95.67073170731707,
+        92.84451219512195,
+        37.548102981029814,
+        40.65853658536585,
+        17.480102695763797,
+        20.577021822849805,
+        13.123170731707315,
+        16.58841463414634,
+        7.989634146341463,
+        11.514634146341463,
+        6.560365853658536,
+        10.559146341463414,
+        5.989634146341464,
+        9.517682926829266,
+        5.134756097560976,
+        8.878048780487806,
+        3.9317073170731702,
+        7.830487804878048,
+        3.575609756097561,
+        7.3481707317073175,
+        3.18780487804878,
+        7.020121951219511,
+        2.778048780487805,
+        6.7006097560975615,
+        2.0731707317073167,
+        5.917682926829268
+      ],
+      "data_x_max": 111.5548780487805,
+      "data_x_min": 1.4201219512195125,
+      "methods": [
+        "correlation_heuristic",
+        "exact_independence",
+        "fixed_tally_factorized",
+        "local_empirical",
+        "pairwise_heuristic",
+        "racer_g",
+        "racer_p",
+        "regularized_correlation"
+      ],
+      "points": [
+        {
+          "mean_calls": 110.66615853658536,
+          "method": "racer_g",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 111.5548780487805,
+          "method": "racer_p",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 53.69054878048781,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 83.73780487804879,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.03201219512195122,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 35.66158536585366,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.03658536585365854,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 63.62804878048781,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.03048780487804878,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 59.20426829268293,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.03201219512195122,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 50.763719512195124,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 110.66615853658536,
+          "method": "racer_g",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 111.5548780487805,
+          "method": "racer_p",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 53.69054878048781,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 83.73780487804879,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.03201219512195122,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 35.66158536585366,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.03658536585365854,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 63.62804878048781,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.03048780487804878,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 59.20426829268293,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.03201219512195122,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 50.763719512195124,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 95.67073170731707,
+          "method": "racer_g",
+          "reported_risk_mean": 0.03201219512195122,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 92.84451219512195,
+          "method": "racer_p",
+          "reported_risk_mean": 0.03048780487804878,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 49.79115853658537,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.03277439024390243,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 81.11432926829269,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.03353658536585366,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 35.52515243902439,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.03810975609756098,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 52.28582317073171,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.03658536585365854,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 49.483993902439025,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.03201219512195122,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 51.140243902439025,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.033536585365853654,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 37.548102981029814,
+          "method": "racer_g",
+          "reported_risk_mean": 0.04336043360433604,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 40.65853658536585,
+          "method": "racer_p",
+          "reported_risk_mean": 0.04132791327913279,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 30.685636856368564,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.03997289972899729,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 69.91260162601627,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.038617886178861784,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 23.993224932249323,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.041327913279132794,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 33.09281842818428,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.04065040650406505,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 32.52168021680217,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.04200542005420054,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 32.082655826558266,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.041327913279132794,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 17.480102695763797,
+          "method": "racer_g",
+          "reported_risk_mean": 0.05198973042362003,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 20.577021822849805,
+          "method": "racer_p",
+          "reported_risk_mean": 0.051347881899871634,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 21.38254172015404,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.050706033376123234,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 52.701540436456995,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.05263157894736842,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 15.19833119383825,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.050064184852374835,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 23.419127086007705,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.05327342747111682,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 20.725930680359436,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.0564826700898588,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 21.38960205391528,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.04942233632862645,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 13.123170731707315,
+          "method": "racer_g",
+          "reported_risk_mean": 0.0652439024390244,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 16.58841463414634,
+          "method": "racer_p",
+          "reported_risk_mean": 0.06402439024390245,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 11.405487804878048,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.07012195121951222,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 39.59634146341463,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.06585365853658538,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 9.921341463414636,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.06341463414634148,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 12.90670731707317,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.06951219512195123,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 10.976219512195122,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.06707317073170734,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 9.68109756097561,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.06768292682926831,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 7.989634146341463,
+          "method": "racer_g",
+          "reported_risk_mean": 0.08048780487804878,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 11.514634146341463,
+          "method": "racer_p",
+          "reported_risk_mean": 0.08414634146341463,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 6.026829268292683,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.08963414634146341,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 25.915243902439027,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.08841463414634147,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 5.941463414634148,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.07926829268292686,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 6.051219512195122,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.08353658536585365,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 6.000609756097562,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.0871951219512195,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 5.71829268292683,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.09024390243902439,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 6.560365853658536,
+          "method": "racer_g",
+          "reported_risk_mean": 0.09390243902439026,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 10.559146341463414,
+          "method": "racer_p",
+          "reported_risk_mean": 0.08963414634146341,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 5.008536585365855,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.09817073170731708,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 22.61280487804878,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.09390243902439026,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 4.601219512195122,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.09451219512195122,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 5.0737804878048784,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.08780487804878048,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 5.114634146341464,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.09573170731707317,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 4.947560975609756,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.09573170731707317,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 5.989634146341464,
+          "method": "racer_g",
+          "reported_risk_mean": 0.09939024390243904,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 9.517682926829266,
+          "method": "racer_p",
+          "reported_risk_mean": 0.09634146341463415,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 4.2475609756097565,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.10426829268292685,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 18.864024390243905,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.09939024390243904,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 3.8658536585365852,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.10487804878048783,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 4.267682926829268,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.09390243902439024,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 4.297560975609756,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.10182926829268295,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 4.170731707317072,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.1030487804878049,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 5.134756097560976,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1103658536585366,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 8.878048780487806,
+          "method": "racer_p",
+          "reported_risk_mean": 0.1030487804878049,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 3.625000000000001,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.11219512195121953,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 17.797560975609755,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.1079268292682927,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 3.3719512195121957,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.11219512195121954,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 3.643292682926829,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.09939024390243903,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 3.6975609756097563,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.10914634146341466,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 3.6121951219512196,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.10731707317073172,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 3.9317073170731702,
+          "method": "racer_g",
+          "reported_risk_mean": 0.12621951219512198,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 7.830487804878048,
+          "method": "racer_p",
+          "reported_risk_mean": 0.11951219512195124,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.842073170731707,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.12621951219512198,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 12.69390243902439,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.12926829268292686,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.535365853658537,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.12743902439024393,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.773170731707317,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.11219512195121954,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.741463414634146,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.13231707317073174,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.817073170731707,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.12682926829268296,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 3.575609756097561,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1359756097560976,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 7.3481707317073175,
+          "method": "racer_p",
+          "reported_risk_mean": 0.12865853658536588,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 2.6768292682926833,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.13170731707317077,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 9.746951219512194,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.13597560975609757,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 2.120121951219512,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.14329268292682928,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 2.495731707317073,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.11951219512195124,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 2.5652439024390246,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.1384146341463415,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 2.654878048780488,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.13536585365853662,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 3.18780487804878,
+          "method": "racer_g",
+          "reported_risk_mean": 0.14146341463414638,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 7.020121951219511,
+          "method": "racer_p",
+          "reported_risk_mean": 0.1353658536585366,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 2.364634146341463,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.14268292682926834,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 5.712804878048781,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.14329268292682928,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.9646341463414636,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.14756097560975612,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 2.26219512195122,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.13536585365853662,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 2.366463414634146,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.1439024390243903,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 2.4384146341463415,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.13963414634146346,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 2.778048780487805,
+          "method": "racer_g",
+          "reported_risk_mean": 0.15609756097560978,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 6.7006097560975615,
+          "method": "racer_p",
+          "reported_risk_mean": 0.14146341463414636,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 2.134756097560975,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.14939024390243907,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 4.706707317073171,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.15182926829268295,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.7524390243902441,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.16219512195121955,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.9420731707317074,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.14939024390243907,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 2.1109756097560974,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.1530487804878049,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 2.203048780487805,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.1463414634146342,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 2.0731707317073167,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1804878048780488,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 5.917682926829268,
+          "method": "racer_p",
+          "reported_risk_mean": 0.16768292682926833,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.5341463414634149,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.18048780487804883,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.7451219512195124,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.175609756097561,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.4201219512195125,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.18780487804878052,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.5012195121951217,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.18109756097560975,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.5926829268292684,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.1804878048780488,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.5664634146341463,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.17987804878048785,
+          "target_alpha": 0.18
+        }
+      ],
+      "pool_size": 200
+    },
+    {
+      "axis_x_max": 174.6176306620209,
+      "axis_x_min": 0.0,
+      "baseline_calls": [
+        165.0400696864112,
+        167.90156794425087,
+        165.0400696864112,
+        167.90156794425087,
+        123.25673940949935,
+        122.42297817715017,
+        60.65725288831835,
+        64.04107830551989,
+        20.832317073170735,
+        24.82926829268293,
+        12.69390243902439,
+        15.285975609756099,
+        5.1518292682926825,
+        9.31890243902439,
+        4.038414634146342,
+        8.13780487804878,
+        3.209146341463415,
+        7.3603658536585375,
+        2.715243902439025,
+        6.896951219512194,
+        1.832926829268293,
+        5.361585365853658,
+        1.6426829268292682,
+        4.965853658536585,
+        1.5207317073170734,
+        4.75731707317073,
+        1.3658536585365852,
+        4.460365853658537,
+        1.2189024390243903,
+        3.723780487804878
+      ],
+      "data_x_max": 167.90156794425087,
+      "data_x_min": 0.9140243902439025,
+      "methods": [
+        "correlation_heuristic",
+        "exact_independence",
+        "fixed_tally_factorized",
+        "local_empirical",
+        "pairwise_heuristic",
+        "racer_g",
+        "racer_p",
+        "regularized_correlation"
+      ],
+      "points": [
+        {
+          "mean_calls": 165.0400696864112,
+          "method": "racer_g",
+          "reported_risk_mean": 0.02787456445993031,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 167.90156794425087,
+          "method": "racer_p",
+          "reported_risk_mean": 0.027003484320557488,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 69.24912891986064,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.020905923344947733,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 109.28310104529616,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.021777003484320562,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 69.76655052264807,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.025261324041811844,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 74.76742160278745,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.022648083623693378,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 75.87108013937282,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.02526132404181185,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 71.51742160278746,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.020905923344947733,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 165.0400696864112,
+          "method": "racer_g",
+          "reported_risk_mean": 0.02787456445993031,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 167.90156794425087,
+          "method": "racer_p",
+          "reported_risk_mean": 0.027003484320557488,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 69.24912891986064,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.020905923344947733,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 109.28310104529616,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.021777003484320562,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 69.76655052264807,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.025261324041811844,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 74.8397212543554,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.022648083623693378,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 75.87108013937282,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.02526132404181185,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 72.26219512195122,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.020905923344947733,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 123.25673940949935,
+          "method": "racer_g",
+          "reported_risk_mean": 0.03016688061617458,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 122.42297817715017,
+          "method": "racer_p",
+          "reported_risk_mean": 0.028241335044929393,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 60.861360718870344,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.02631578947368421,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 97.56739409499357,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.024390243902439022,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 57.42426187419769,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.02631578947368421,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 61.39602053915276,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.02888318356867779,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 63.67971758664953,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.0269576379974326,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 61.85109114249036,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.0269576379974326,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 60.65725288831835,
+          "method": "racer_g",
+          "reported_risk_mean": 0.04428754813863928,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 64.04107830551989,
+          "method": "racer_p",
+          "reported_risk_mean": 0.0423620025673941,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 21.76893453145058,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.04492939666238768,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 54.46020539152759,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.04942233632862644,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 16.49486521181002,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.04557124518613607,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 22.58793324775353,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.04621309370988446,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 25.224646983311942,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.04428754813863928,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 23.123234916559692,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.04364569961489089,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 20.832317073170735,
+          "method": "racer_g",
+          "reported_risk_mean": 0.05121951219512196,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 24.82926829268293,
+          "method": "racer_p",
+          "reported_risk_mean": 0.05731707317073172,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 16.048780487804876,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.0475609756097561,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 37.38536585365854,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.05609756097560977,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 10.14451219512195,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.05853658536585367,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 12.857926829268294,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.055487804878048795,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 13.322560975609756,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.05365853658536586,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 16.264634146341457,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.0475609756097561,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 12.69390243902439,
+          "method": "racer_g",
+          "reported_risk_mean": 0.06341463414634148,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 15.285975609756099,
+          "method": "racer_p",
+          "reported_risk_mean": 0.07073170731707318,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 9.891463414634147,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.05853658536585367,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 27.79573170731707,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.06585365853658538,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 6.914024390243904,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.06585365853658538,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 9.412195121951218,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.06402439024390245,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 8.533536585365855,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.062195121951219526,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 9.633536585365857,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.05731707317073172,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 5.1518292682926825,
+          "method": "racer_g",
+          "reported_risk_mean": 0.08963414634146342,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 9.31890243902439,
+          "method": "racer_p",
+          "reported_risk_mean": 0.08353658536585366,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.383536585365855,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.08109756097560976,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 18.676219512195125,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.08414634146341464,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 3.867682926829268,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.0774390243902439,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.580487804878048,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.08536585365853659,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.144512195121952,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.08475609756097562,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.857317073170732,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.0780487804878049,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.038414634146342,
+          "method": "racer_g",
+          "reported_risk_mean": 0.09695121951219514,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 8.13780487804878,
+          "method": "racer_p",
+          "reported_risk_mean": 0.08841463414634146,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.1176829268292683,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.09329268292682928,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 14.290243902439025,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.09085365853658536,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 2.7841463414634147,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.09085365853658538,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.038414634146341,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.09817073170731708,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.3609756097560974,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.09817073170731709,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.4006097560975617,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.08719512195121952,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.209146341463415,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1030487804878049,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 7.3603658536585375,
+          "method": "racer_p",
+          "reported_risk_mean": 0.09085365853658536,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.3310975609756097,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.10426829268292685,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 10.896341463414632,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.09939024390243903,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.0798780487804875,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.1030487804878049,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.396341463414634,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.10914634146341466,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.883536585365854,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.10426829268292685,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.647560975609756,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.10182926829268295,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.715243902439025,
+          "method": "racer_g",
+          "reported_risk_mean": 0.10975609756097564,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 6.896951219512194,
+          "method": "racer_p",
+          "reported_risk_mean": 0.0975609756097561,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 1.8865853658536587,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.11646341463414636,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 7.5231707317073155,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.10914634146341466,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 1.7414634146341463,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.11219512195121953,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 1.8213414634146339,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.1128048780487805,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.1567073170731708,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.11097560975609758,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.1042682926829266,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.11158536585365855,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 1.832926829268293,
+          "method": "racer_g",
+          "reported_risk_mean": 0.12500000000000003,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 5.361585365853658,
+          "method": "racer_p",
+          "reported_risk_mean": 0.11585365853658539,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.5006097560975609,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.12926829268292686,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.488414634146342,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.12743902439024393,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.1902439024390241,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.12682926829268296,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.4365853658536585,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.12865853658536588,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.596341463414634,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.1304878048780488,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.5896341463414634,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.12621951219512198,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.6426829268292682,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1335365853658537,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 4.965853658536585,
+          "method": "racer_p",
+          "reported_risk_mean": 0.12682926829268296,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.3884146341463415,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.13475609756097565,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.6939024390243904,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.13231707317073174,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.0841463414634145,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.14085365853658538,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.2780487804878047,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.13719512195121955,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.4085365853658538,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.14085365853658538,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.3676829268292683,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.13597560975609757,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.5207317073170734,
+          "method": "racer_g",
+          "reported_risk_mean": 0.14451219512195126,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 4.75731707317073,
+          "method": "racer_p",
+          "reported_risk_mean": 0.1298780487804878,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.2353658536585366,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.1457317073170732,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.3676829268292683,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.1451219512195122,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.0304878048780488,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.15182926829268295,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.195731707317073,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.1432926829268293,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.2353658536585366,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.15060975609756103,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.2335365853658535,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.14878048780487807,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.3658536585365852,
+          "method": "racer_g",
+          "reported_risk_mean": 0.15670731707317076,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 4.460365853658537,
+          "method": "racer_p",
+          "reported_risk_mean": 0.13841463414634148,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.155487804878049,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.15670731707317076,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.1853658536585365,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.1585365853658537,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 0.9609756097560975,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.15914634146341466,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.1426829268292684,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.1530487804878049,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.1390243902439023,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.15975609756097567,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.1420731707317073,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.15609756097560978,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.2189024390243903,
+          "method": "racer_g",
+          "reported_risk_mean": 0.18963414634146344,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 3.723780487804878,
+          "method": "racer_p",
+          "reported_risk_mean": 0.16402439024390247,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.0481707317073172,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.17865853658536587,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.026219512195122,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.1804878048780488,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 0.9140243902439025,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.1951219512195122,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.0115853658536587,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.17865853658536587,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.0176829268292684,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.18170731707317075,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.0182926829268295,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.18170731707317075,
+          "target_alpha": 0.18
+        }
+      ],
+      "pool_size": 300
+    },
+    {
+      "axis_x_max": 181.76097560975612,
+      "axis_x_min": 0.0,
+      "baseline_calls": [
+        167.00656660412758,
+        174.77016885553473,
+        167.00656660412758,
+        174.77016885553473,
+        104.23238482384824,
+        106.61246612466124,
+        47.177792041078305,
+        55.777278562259305,
+        20.58109756097561,
+        27.860975609756093,
+        12.242682926829268,
+        18.083536585365852,
+        6.474390243902439,
+        11.320731707317075,
+        4.761585365853658,
+        10.235365853658536,
+        4.026219512195121,
+        9.293292682926829,
+        3.3548780487804875,
+        8.698780487804878,
+        2.523170731707317,
+        7.346951219512197,
+        2.1573170731707316,
+        6.879268292682926,
+        1.8859756097560971,
+        6.617073170731707,
+        1.8152439024390243,
+        6.307926829268292,
+        1.5579268292682928,
+        5.706707317073171
+      ],
+      "data_x_max": 174.77016885553473,
+      "data_x_min": 1.0774390243902439,
+      "methods": [
+        "correlation_heuristic",
+        "exact_independence",
+        "fixed_tally_factorized",
+        "local_empirical",
+        "pairwise_heuristic",
+        "racer_g",
+        "racer_p",
+        "regularized_correlation"
+      ],
+      "points": [
+        {
+          "mean_calls": 167.00656660412758,
+          "method": "racer_g",
+          "reported_risk_mean": 0.022514071294559103,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 174.77016885553473,
+          "method": "racer_p",
+          "reported_risk_mean": 0.024390243902439025,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 83.95966228893056,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.025328330206378986,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 122.57129455909943,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.025328330206378986,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 74.26829268292684,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.02814258911819887,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 88.16228893058161,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.023452157598499064,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 92.02720450281426,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.023452157598499064,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 83.95966228893056,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.025328330206378986,
+          "target_alpha": 0.02
+        },
+        {
+          "mean_calls": 167.00656660412758,
+          "method": "racer_g",
+          "reported_risk_mean": 0.022514071294559103,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 174.77016885553473,
+          "method": "racer_p",
+          "reported_risk_mean": 0.024390243902439025,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 83.95966228893056,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.025328330206378986,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 122.57129455909943,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.025328330206378986,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 74.26829268292684,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.02814258911819887,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 88.16228893058161,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.023452157598499064,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 92.02626641651031,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.023452157598499064,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 83.95966228893056,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.025328330206378986,
+          "target_alpha": 0.025
+        },
+        {
+          "mean_calls": 104.23238482384824,
+          "method": "racer_g",
+          "reported_risk_mean": 0.02913279132791328,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 106.61246612466124,
+          "method": "racer_p",
+          "reported_risk_mean": 0.029810298102981025,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 43.10162601626016,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.029810298102981032,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 70.1808943089431,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.03184281842818428,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 37.05758807588076,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.030487804878048783,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 47.35772357723577,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.026422764227642274,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 46.14498644986449,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.030487804878048783,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 43.081300813008134,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.030487804878048783,
+          "target_alpha": 0.03
+        },
+        {
+          "mean_calls": 47.177792041078305,
+          "method": "racer_g",
+          "reported_risk_mean": 0.0423620025673941,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 55.777278562259305,
+          "method": "racer_p",
+          "reported_risk_mean": 0.03851091142490373,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 20.45635430038511,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.04813863928112965,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 53.46919127086007,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.04492939666238767,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 16.14955070603338,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.04492939666238768,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 25.059691912708598,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.03851091142490373,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 22.202824133504492,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.0410783055198973,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 20.278562259306806,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.04557124518613607,
+          "target_alpha": 0.04
+        },
+        {
+          "mean_calls": 20.58109756097561,
+          "method": "racer_g",
+          "reported_risk_mean": 0.052439024390243914,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 27.860975609756093,
+          "method": "racer_p",
+          "reported_risk_mean": 0.045121951219512194,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 14.582926829268294,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.05365853658536586,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 40.115243902439026,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.051219512195121955,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 10.92439024390244,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.056097560975609764,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 15.15670731707317,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.05365853658536587,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 15.00121951219512,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.05243902439024391,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 14.198170731707318,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.056097560975609764,
+          "target_alpha": 0.05
+        },
+        {
+          "mean_calls": 12.242682926829268,
+          "method": "racer_g",
+          "reported_risk_mean": 0.05853658536585367,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 18.083536585365852,
+          "method": "racer_p",
+          "reported_risk_mean": 0.05182926829268294,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 9.38109756097561,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.06402439024390245,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 28.417073170731708,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.06707317073170734,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 5.780487804878048,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.06829268292682929,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 7.122560975609756,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.06585365853658538,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 8.429878048780488,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.07134146341463417,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 9.245731707317074,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.06768292682926831,
+          "target_alpha": 0.06
+        },
+        {
+          "mean_calls": 6.474390243902439,
+          "method": "racer_g",
+          "reported_risk_mean": 0.07682926829268295,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 11.320731707317075,
+          "method": "racer_p",
+          "reported_risk_mean": 0.07926829268292686,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.732926829268293,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.075609756097561,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 15.89329268292683,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.08780487804878048,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 3.2231707317073175,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.08841463414634147,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 3.834146341463414,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.08536585365853659,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.308536585365854,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.08292682926829269,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.852439024390244,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.07378048780487807,
+          "target_alpha": 0.075
+        },
+        {
+          "mean_calls": 4.761585365853658,
+          "method": "racer_g",
+          "reported_risk_mean": 0.09085365853658538,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 10.235365853658536,
+          "method": "racer_p",
+          "reported_risk_mean": 0.08902439024390243,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.6390243902439017,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.0804878048780488,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 11.976829268292684,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.0951219512195122,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 2.700609756097561,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.09512195121951221,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.2432926829268296,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.0926829268292683,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.2786585365853655,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.09573170731707319,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 3.3804878048780487,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.08536585365853659,
+          "target_alpha": 0.09
+        },
+        {
+          "mean_calls": 4.026219512195121,
+          "method": "racer_g",
+          "reported_risk_mean": 0.10121951219512197,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 9.293292682926829,
+          "method": "racer_p",
+          "reported_risk_mean": 0.09817073170731708,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 3.0804878048780484,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.0975609756097561,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 8.02560975609756,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.11219512195121953,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.4359756097560976,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.10243902439024391,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.8292682926829267,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.10182926829268295,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.9396341463414637,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.11463414634146343,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 2.754268292682927,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.1079268292682927,
+          "target_alpha": 0.1
+        },
+        {
+          "mean_calls": 3.3548780487804875,
+          "method": "racer_g",
+          "reported_risk_mean": 0.11158536585365855,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 8.698780487804878,
+          "method": "racer_p",
+          "reported_risk_mean": 0.11036585365853661,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.448170731707317,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.11036585365853661,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 4.184756097560975,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.12134146341463417,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.168292682926829,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.11463414634146343,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.524390243902439,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.11219512195121953,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.6359756097560973,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.11951219512195124,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.38109756097561,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.11463414634146343,
+          "target_alpha": 0.11
+        },
+        {
+          "mean_calls": 2.523170731707317,
+          "method": "racer_g",
+          "reported_risk_mean": 0.12987804878048784,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 7.346951219512197,
+          "method": "racer_p",
+          "reported_risk_mean": 0.1359756097560976,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.8762195121951222,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.13902439024390245,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.298170731707317,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.14207317073170733,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.775,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.12865853658536588,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.0231707317073164,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.1335365853658537,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.9115853658536586,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.1457317073170732,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 1.9457317073170728,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.13719512195121955,
+          "target_alpha": 0.12
+        },
+        {
+          "mean_calls": 2.1573170731707316,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1451219512195122,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 6.879268292682926,
+          "method": "racer_p",
+          "reported_risk_mean": 0.14695121951219517,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.706707317073171,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.14817073170731712,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 2.0036585365853656,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.15000000000000002,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.5573170731707318,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.1384146341463415,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.798170731707317,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.14634146341463417,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.8359756097560975,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.15243902439024395,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.8134146341463417,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.14878048780487807,
+          "target_alpha": 0.13
+        },
+        {
+          "mean_calls": 1.8859756097560971,
+          "method": "racer_g",
+          "reported_risk_mean": 0.15243902439024393,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 6.617073170731707,
+          "method": "racer_p",
+          "reported_risk_mean": 0.15060975609756103,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.5500000000000003,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.1609756097560976,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.55,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.1634146341463415,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.4335365853658537,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.14451219512195126,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.6152439024390248,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.1597560975609756,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.6408536585365856,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.16524390243902443,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.6914634146341463,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.1585365853658537,
+          "target_alpha": 0.14
+        },
+        {
+          "mean_calls": 1.8152439024390243,
+          "method": "racer_g",
+          "reported_risk_mean": 0.1603658536585366,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 6.307926829268292,
+          "method": "racer_p",
+          "reported_risk_mean": 0.15792682926829266,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.427439024390244,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.17073170731707318,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.4219512195121953,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.17195121951219514,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.3353658536585367,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.15121951219512197,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.4152439024390246,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.17195121951219516,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.4804878048780488,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.175609756097561,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.501219512195122,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.16707317073170735,
+          "target_alpha": 0.15
+        },
+        {
+          "mean_calls": 1.5579268292682928,
+          "method": "racer_g",
+          "reported_risk_mean": 0.19024390243902442,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 5.706707317073171,
+          "method": "racer_p",
+          "reported_risk_mean": 0.17804878048780487,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.1170731707317074,
+          "method": "exact_independence",
+          "reported_risk_mean": 0.20182926829268294,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.1189024390243902,
+          "method": "local_empirical",
+          "reported_risk_mean": 0.20487804878048785,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.0786585365853658,
+          "method": "fixed_tally_factorized",
+          "reported_risk_mean": 0.19268292682926833,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.0774390243902439,
+          "method": "pairwise_heuristic",
+          "reported_risk_mean": 0.2054878048780488,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.1353658536585365,
+          "method": "correlation_heuristic",
+          "reported_risk_mean": 0.2036585365853659,
+          "target_alpha": 0.18
+        },
+        {
+          "mean_calls": 1.123780487804878,
+          "method": "regularized_correlation",
+          "reported_risk_mean": 0.20426829268292684,
+          "target_alpha": 0.18
+        }
+      ],
+      "pool_size": 500
+    }
+  ],
+  "schema_version": 1
+}

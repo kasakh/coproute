@@ -1,0 +1,179 @@
+{
+ "datasets": {
+  "routerbench": {
+   "alpha": 0.1,
+   "benchmark": "mmlu",
+   "matched_budget_residual_ordering_gain": 0.7692691029900333,
+   "matched_budget_sizing_gain": 1.8819648789748458,
+   "sigma_0_40_method_changes": {
+    "exact_independence": {
+     "call_change": 0.05280018984337924,
+     "call_ci95": [
+      -0.023544138585666886,
+      0.1349822021831989
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": 0.0013289036544850495,
+     "risk_ci95": [
+      -0.0004746084480303746,
+      0.0031798766018035114
+     ]
+    },
+    "exact_independence_matched_budget": {
+     "call_change": 0.11680113906027534,
+     "call_ci95": [
+      0.051897247271001486,
+      0.1788105125771239
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.0006169909824394866,
+     "risk_ci95": [
+      -0.002278120550545799,
+      0.0012814428096820103
+     ]
+    },
+    "fixed_tally_chain_discounted": {
+     "call_change": 0.04489795918367352,
+     "call_ci95": [
+      0.019791172282866688,
+      0.06972057427622219
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.0003084954912197423,
+     "risk_ci95": [
+      -0.0014000949216896035,
+      0.0007831039392501203
+     ]
+    },
+    "fixed_tally_factorized": {
+     "call_change": 0.04489795918367352,
+     "call_ci95": [
+      0.019601328903654514,
+      0.0703630754627433
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.0003084954912197423,
+     "risk_ci95": [
+      -0.0014000949216896048,
+      0.0007831039392501175
+     ]
+    },
+    "racer_g": {
+     "call_change": -0.23336497389653538,
+     "call_ci95": [
+      -0.30482261509254865,
+      -0.16485465116279083
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.0009729473184622694,
+     "risk_ci95": [
+      -0.003298528713811108,
+      0.0013763644992880874
+     ]
+    },
+    "racer_g_matched_budget": {
+     "call_change": -0.2656858092074039,
+     "call_ci95": [
+      -0.3390608685334599,
+      -0.19458827717133356
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.0006644518272425244,
+     "risk_ci95": [
+      -0.0026815377313716172,
+      0.0015662078785002365
+     ]
+    }
+   }
+  },
+  "routereval": {
+   "alpha": 0.1,
+   "benchmark": "ifeval",
+   "matched_budget_residual_ordering_gain": -0.029878048780487776,
+   "matched_budget_sizing_gain": 1.2396341463414633,
+   "sigma_0_40_method_changes": {
+    "exact_independence": {
+     "call_change": 0.5920731707317074,
+     "call_ci95": [
+      -0.0012195121951219313,
+      1.1445121951219512
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.00853658536585366,
+     "risk_ci95": [
+      -0.020121951219512192,
+      0.002439024390243899
+     ]
+    },
+    "exact_independence_matched_budget": {
+     "call_change": 0.8164634146341463,
+     "call_ci95": [
+      0.42376524390243897,
+      1.2335365853658535
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.011585365853658538,
+     "risk_ci95": [
+      -0.02743902439024391,
+      0.003658536585365848
+     ]
+    },
+    "fixed_tally_chain_discounted": {
+     "call_change": 0.2006097560975609,
+     "call_ci95": [
+      -0.05975609756097566,
+      0.520731707317073
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": 0.005487804878048779,
+     "risk_ci95": [
+      0.001219512195121951,
+      0.010975609756097557
+     ]
+    },
+    "fixed_tally_factorized": {
+     "call_change": 0.032926829268292566,
+     "call_ci95": [
+      -0.13660060975609767,
+      0.23903963414634116
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": 0.0036585365853658526,
+     "risk_ci95": [
+      0.0,
+      0.008536585365853656
+     ]
+    },
+    "racer_g": {
+     "call_change": 1.1341463414634148,
+     "call_ci95": [
+      0.377423780487805,
+      1.8384146341463414
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.00975609756097561,
+     "risk_ci95": [
+      -0.021341463414634144,
+      0.0018292682926829285
+     ]
+    },
+    "racer_g_matched_budget": {
+     "call_change": 1.1085365853658538,
+     "call_ci95": [
+      0.6011890243902439,
+      1.6378201219512194
+     ],
+     "paired_redraw_count": 20,
+     "risk_change": -0.006097560975609755,
+     "risk_ci95": [
+      -0.019512195121951216,
+      0.008536585365853661
+     ]
+    }
+   }
+  }
+ },
+ "issue": 72,
+ "schema_version": "issue72_analysis_v2",
+ "source": "estimator-grid run records (see estimator_grid_uncertainty.csv)"
+}

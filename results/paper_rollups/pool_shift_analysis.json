@@ -1,0 +1,65 @@
+{
+ "availability_rows": 672,
+ "base_rows": 420,
+ "duplicate_growth_distinct_families_at_32": 20.3,
+ "family_rows": 200,
+ "fixed_tally_d1_add": {
+  "available_certificates": 729,
+  "cells": 51,
+  "mean_recalibrated_call_premium": 0.07245102418970634,
+  "mean_unchanged_call_premium": 0.0,
+  "recalibrated_certification_rate": 0.7362745098039216,
+  "survival_rate": 1.0,
+  "survived_certificates": 729
+ },
+ "fixed_tally_d1_growth_pool32": {
+  "all_10000_bootstraps": true,
+  "cells": 7,
+  "mean_call_difference": -0.04031090860359152,
+  "risk_no_higher_cells": 5,
+  "specialist_lower_calls_cells": 2
+ },
+ "fixed_tally_d1_remove": {
+  "available_certificates": 729,
+  "cells": 51,
+  "mean_recalibrated_call_premium": 1.071761008939982,
+  "mean_unchanged_call_premium": -1.0,
+  "recalibrated_certification_rate": 0.6313725490196078,
+  "survival_rate": 0.03429355281207133,
+  "survived_certificates": 25
+ },
+ "fixed_tally_d2_add": {
+  "available_certificates": 729,
+  "cells": 51,
+  "mean_recalibrated_call_premium": -0.015384197035463372,
+  "mean_unchanged_call_premium": 0.0,
+  "recalibrated_certification_rate": 0.7362745098039216,
+  "survival_rate": 1.0,
+  "survived_certificates": 729
+ },
+ "fixed_tally_d2_growth_pool32": {
+  "all_10000_bootstraps": true,
+  "cells": 7,
+  "mean_call_difference": -0.49524256231573305,
+  "risk_no_higher_cells": 5,
+  "specialist_lower_calls_cells": 3
+ },
+ "fixed_tally_d2_remove": {
+  "available_certificates": 729,
+  "cells": 51,
+  "mean_recalibrated_call_premium": 0.9839320603279578,
+  "mean_unchanged_call_premium": -1.0,
+  "recalibrated_certification_rate": 0.6313725490196078,
+  "survival_rate": 0.02194787379972565,
+  "survived_certificates": 16
+ },
+ "issue": 67,
+ "paired_rows": 210,
+ "same_test_rows_across_interventions": true,
+ "schema_version": "issue67_analysis_v1",
+ "source_manifest_sha256": "cff20d48a8111edd6c2fc1d4ae95e6c34074cb4649b1e8db96fe156125c56dbc",
+ "specialist_growth_distinct_families_at_32": 32,
+ "subgroup_status": [
+  "archived aligned IFEval task exposes prompts but no task or subgroup labels"
+ ]
+}
