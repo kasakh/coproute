@@ -1,6 +1,6 @@
 # CopRoute: Dependence-Aware Conformal Routing for Language Models
 
-Code, run records, and figure sources for the paper *CopRoute: Dependence-Aware Conformal Routing for Language Models* (Siva Rajesh Kasa, Santhosh Kumar Kasa, Karan Gupta).
+Code, run records, and figure sources for the paper *CopRoute: Dependence-Aware Conformal Routing for Language Models* (Siva Rajesh Kasa, Santhosh Kumar Kasa, Karan Gupta), arXiv:2610.13276, https://arxiv.org/abs/2610.13276.
 
 Risk-controlled set routing selects, per query, a subset of models from a pool and controls the probability that every selected real model answers incorrectly, while calling as few models as possible. This repository contains the estimators and runners, the run records behind tables and figures, and scripts that regenerate and check each reported artifact.
 
@@ -223,15 +223,18 @@ MIT (see LICENSE).
 
 ## Citation
 
-If you use this code, the run records, or the results in your work, please cite the paper.
-The arXiv identifier will be added here once it is announced.
+If you use this code, the run records, or the results in your work, please cite the paper
+(https://arxiv.org/abs/2610.13276).
 
 ```bibtex
 @article{kasa2026coproute,
-  title   = {CopRoute: Dependence-Aware Conformal Routing for Language Models},
-  author  = {Kasa, Siva Rajesh and Kasa, Santhosh Kumar and Gupta, Karan},
-  journal = {arXiv preprint},
-  year    = {2026},
-  note    = {arXiv identifier to be added}
+  title         = {CopRoute: Dependence-Aware Conformal Routing for Language Models},
+  author        = {Kasa, Siva Rajesh and Kasa, Santhosh Kumar and Gupta, Karan},
+  journal       = {arXiv preprint arXiv:2610.13276},
+  year          = {2026},
+  eprint        = {2610.13276},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2610.13276}
 }
 ```
